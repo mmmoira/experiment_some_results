@@ -1,0 +1,62 @@
+loading data from ../data/DD/data.pkl
+462/1178 graphs with at least 200 nodes
+generating 10-fold cross-validation splits
+0 415 47
+1 415 47
+2 415 47
+3 415 47
+4 415 47
+5 415 47
+6 415 47
+7 415 47
+8 415 47
+9 423 39
+The degree_feature argument is ignored for this dataset. 
+        It will automatically be set to True if nodes do not have any features. Otherwise it will be set to False
+TRAIN_VAL: 462/1178
+Class 0: 			128 samples
+Class 1: 			334 samples
+The degree_feature argument is ignored for this dataset. 
+        It will automatically be set to True if nodes do not have any features. Otherwise it will be set to False
+TEST: 716/1178
+Class 0: 			563 samples
+Class 1: 			153 samples
+DD-Train: 462 graphs, N_nodes_min=30, N_nodes_max=200
+Correlation between the graph size and labels: -0.31
+label 1
+label 1
+DD-Test: 716 graphs, N_nodes_min=201, N_nodes_max=5748
+Correlation between the graph size and labels: -0.09
+label 0
+label 0
+loading data from ../data/PROTEINS/data.pkl
+548/1113 graphs with at least 25 nodes
+generating 10-fold cross-validation splits
+0 450 50
+1 450 50
+2 450 50
+3 450 50
+4 450 50
+5 450 50
+6 450 50
+7 450 50
+8 450 50
+9 450 50
+The degree_feature argument is ignored for this dataset. 
+        It will automatically be set to True if nodes do not have any features. Otherwise it will be set to False
+TRAIN_VAL: 500/1113
+Class 0: 			204 samples
+Class 1: 			296 samples
+The degree_feature argument is ignored for this dataset. 
+        It will automatically be set to True if nodes do not have any features. Otherwise it will be set to False
+TEST: 613/1113
+Class 0: 			459 samples
+Class 1: 			154 samples
+PROTEINS-Train: 500 graphs, N_nodes_min=4, N_nodes_max=25
+Correlation between the graph size and labels: -0.39
+label 1
+label 0
+PROTEINS-Test: 613 graphs, N_nodes_min=5, N_nodes_max=620
+Correlation between the graph size and labels: -0.18
+label 1
+label 1
