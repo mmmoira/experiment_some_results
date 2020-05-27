@@ -45,18 +45,18 @@ generating 10-fold cross-validation splits
 The degree_feature argument is ignored for this dataset. 
         It will automatically be set to True if nodes do not have any features. Otherwise it will be set to False
 TRAIN_VAL: 500/1113
-Class 0: 			204 samples
-Class 1: 			296 samples
+Class 0: 			200 samples
+Class 1: 			300 samples
 The degree_feature argument is ignored for this dataset. 
         It will automatically be set to True if nodes do not have any features. Otherwise it will be set to False
 TEST: 613/1113
-Class 0: 			459 samples
-Class 1: 			154 samples
+Class 0: 			463 samples
+Class 1: 			150 samples
 PROTEINS-Train: 500 graphs, N_nodes_min=4, N_nodes_max=25
-Correlation between the graph size and labels: -0.39
-label 1
+Correlation between the graph size and labels: -0.38
+label 0
 label 0
 PROTEINS-Test: 613 graphs, N_nodes_min=5, N_nodes_max=620
-Correlation between the graph size and labels: -0.18
+Correlation between the graph size and labels: -0.17
 label 1
 label 1
